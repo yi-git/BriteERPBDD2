@@ -1,0 +1,8 @@
+21:28:42.490 [main] TRACE io.github.bonigarcia.wdm.WebDriverManager - Filter cache by win -- input list [C:\Users\Berdy\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe] -- output list [C:\Users\Berdy\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe] 
+21:28:42.493 [main] TRACE io.github.bonigarcia.wdm.WebDriverManager - Using preferences true
+21:28:42.495 [main] TRACE io.github.bonigarcia.wdm.WebDriverManager - Using preferences true
+21:28:42.495 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 75.0.3770.8 found in cache
+21:28:42.496 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Berdy\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+21:28:46.773 [main] INFO  base.Base - Website opened
+21:28:48.339 [main] INFO  base.Base - logged in
+21:28:52.348 [main] INFO  base.Base - Assertion complete
