@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         format = {"pretty", "html:test-outout"},// generate different reports
         monochrome = true, //display console output in readable format
         dryRun = false,
-        tags = {"@login"} )
+        tags = {"@login"}
+         )
 
 
 public class TestRunner extends AbstractTestNGCucumberTests {
