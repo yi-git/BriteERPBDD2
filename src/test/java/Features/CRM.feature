@@ -29,3 +29,5 @@ Scenario:Delete Opportunity
     And user check Galaxy Phone checkbox
     And deletes the item
     Then item should be deleted
+
+
