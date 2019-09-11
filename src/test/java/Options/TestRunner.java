@@ -3,7 +3,6 @@ package Options;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -13,10 +12,10 @@ import org.junit.runner.RunWith;
         format = {"pretty", "html:test-outout"},// generate different reports
         monochrome = true, //display console output in readable format
         dryRun = false,
-        tags = {"@login"} )
+        tags = {"@regression"} )
 
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner {
 
 
 

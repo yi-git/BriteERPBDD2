@@ -3,16 +3,23 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
+
+import java.util.List;
 
 public class TopMenu {
 
-
+//    public TopMenu (WebDriver driver ){
+//        this.driver = driver;
+//        PageFactory.initElements(driver,this);
+//    }
 
 
 
     WebDriver driver;
 
-
+    @FindBys(@FindBy (xpath ="//ul[@class='nav navbar-nav navbar-left oe_application_menu_placeholder']/li/a[starts-with(@href,'/web')]"))
+    public List<WebElement> topmenuitems;
 
     @FindBy(xpath = "//span[@class='oe_menu_text'][contains(text(),'Point of Sale')]")
     private WebElement TMpointOfSale;

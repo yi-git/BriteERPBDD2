@@ -1,18 +1,12 @@
 package StepDefinitions;
 
 import base.Base;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CRMPage;
 import pages.LoginPage;
 import pages.PointOfSalePage;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -60,21 +54,21 @@ public class Hooks extends Base {
 
 
 
-    @After
-    public void embedScreenshot(Scenario scenario) throws InterruptedException {
-        if (scenario.isFailed()) {
-            try {
-                File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-
-                FileUtils.copyFile(file, new File("C:\\Users\\Berdy\\IdeaProjects\\BriteERP\\test-outout\\Screenshots\\"+ scenario.getName()+".png"));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        driver.close();
-        //changes
-    }
+//    @After
+//    public void embedScreenshot(Scenario scenario) throws InterruptedException {
+//        if (scenario.isFailed()) {
+//            try {
+//                File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//
+//                FileUtils.copyFile(file, new File("C:\\Users\\Berdy\\IdeaProjects\\BriteERP\\test-outout\\Screenshots\\"+ scenario.getName()+".png"));
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
+//
+//        driver.close();
+//        //changes
+//    }
 
 
 
