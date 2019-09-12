@@ -18,6 +18,7 @@ public class PointOfSalesSteps extends Base {
     public void user_on_page(String arg1) throws Throwable {
         //Assert.assertEquals(driver.getTitle(),arg1);
         pos=new PointOfSalePage(driver);
+        System.out.println("esra");
 
 
     }
