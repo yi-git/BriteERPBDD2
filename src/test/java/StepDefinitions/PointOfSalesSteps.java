@@ -19,6 +19,7 @@ public class PointOfSalesSteps extends Base {
         //Assert.assertEquals(driver.getTitle(),arg1);
         pos=new PointOfSalePage(driver);
         System.out.println("esra");
+        Assert.assertTrue(true);
 
 
     }
@@ -65,6 +66,7 @@ public class PointOfSalesSteps extends Base {
     public void product_final_product_should_be_displayed_with_correct_name_and_price() throws Throwable {
         Assert.assertEquals(pos.getProductName().getText(),"Iphone");
         Assert.assertEquals(pos.getProductPrice().getText(), "$ 1.00");
+
 
 
     }
