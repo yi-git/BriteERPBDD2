@@ -20,6 +20,7 @@ public class PointOfSalesSteps extends Base {
         pos=new PointOfSalePage(driver);
         System.out.println("esra");
         Assert.assertTrue(true);
+        System.out.println("will this work?");
 
 
     }
