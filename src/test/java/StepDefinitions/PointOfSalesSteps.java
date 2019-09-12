@@ -23,6 +23,7 @@ public class PointOfSalesSteps extends Base {
         System.out.println("will this work?");
         System.out.println("neden olmadi");
         System.out.println("kafayi yiyecegim");
+        System.out.println("ya bisey eklemeden cektim");
 
 
     }
