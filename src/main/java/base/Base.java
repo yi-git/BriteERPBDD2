@@ -12,7 +12,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
+//Doesn't recognize maven project on macbook
 
 public class Base {
     public static WebDriver driver;
