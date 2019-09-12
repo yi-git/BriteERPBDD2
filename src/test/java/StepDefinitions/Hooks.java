@@ -46,8 +46,8 @@ public class Hooks extends Base {
         WebDriverWait wait = new WebDriverWait(driver,10);
         //wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='o_loading']")));
         Thread.sleep(2000);
-        CRMPage crm = new CRMPage(driver);
-        crm.getTMCRM().click();
+        //CRMPage crm = new CRMPage(driver);
+        //crm.getTMCRM().click();
         //Thread.sleep(1000);
     }
 
