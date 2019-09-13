@@ -24,8 +24,7 @@ public class PointOfSalesSteps extends Base {
         System.out.println("neden olmadi");
         System.out.println("kafayi yiyecegim");
         System.out.println("revert");
-
-
+        System.out.println("revert2");
     }
 
 
