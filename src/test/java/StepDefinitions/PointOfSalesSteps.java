@@ -21,8 +21,7 @@ public class PointOfSalesSteps extends Base {
         System.out.println("esra");
         Assert.assertTrue(true);
         System.out.println("will this work?");
-        System.out.println("neden olmadi");
-        System.out.println("kafayi yiyecegim");
+        System.out.println("revert");
 
 
     }
